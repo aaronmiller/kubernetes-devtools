@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-alias kubernetes-devtools="cd \${HOME}/kubernetes-devtools"
+alias kubernetes-devtools="cd \${DEVTOOLS_DIR}/kubernetes-devtools"
