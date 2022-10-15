@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 export KUBERNETES_DEVTOOLS_DIR="${DEVTOOLS_DIR}/kubernetes-devtools"
 

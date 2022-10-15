@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 for file in "${KUBERNETES_DEVTOOLS_DIR}"/scripts/aliases/*; do
   if [[ $file == *"index.sh" ]]; then
