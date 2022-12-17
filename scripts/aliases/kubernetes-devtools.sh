@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-kubernetes-devtools() {
+kdevtools() {
   cd ${KUBERNETES_DEVTOOLS_DIR}
 }
