@@ -1,26 +1,27 @@
-foreground: &foreground "#eceff4"
-current_line: &current_line "#1f2024"
-selection: &selection "#819cd6"
-comment: &comment "#6e7899"
-cyan: &cyan "#7289bc"
-green: &green "#5b94ab"
-orange: &orange "#a6c1e0"
-blue: &blue "#819cd6"
-magenta: &magenta "#a6c1e0"
-red: &red "#e1c1ee"
-yellow: &yellow "#cfcf9c"
+# Nord
+foreground: &foreground "#DADEE8"
+background: &background "#30343F"
+current_line: &current_line "#383D4A"
+selection: &selection "#D9DEE8"
+comment: &comment "#8891A7"
+cyan: &cyan "#88C0D0"
+green: &green "#A3BE8C"
+orange: &orange "#D08770"
+blue: &blue "#81A1C1"
+magenta: &magenta "#B48EAD"
+red: &red "#BF616A"
+yellow: &yellow "#EBCB8B"
 
 k9s:
   # General K9s styles
   body:
     fgColor: *foreground
     bgColor: default
-    logoColor: *cyan
-
+    logoColor: *magenta
   # Command prompt styles
   prompt:
     fgColor: *foreground
-    bgColor: default
+    bgColor: *background
     suggestColor: *orange
   # ClusterInfoView styles.
   info:
@@ -40,7 +41,7 @@ k9s:
     # Borders styles.
     border:
       fgColor: *selection
-      focusColor: *cyan
+      focusColor: *current_line
     menu:
       fgColor: *foreground
       keyColor: *blue
@@ -57,7 +58,7 @@ k9s:
       modifyColor: *magenta
       addColor: *green
       errorColor: *red
-      highlightcolor: *orange
+      highlightColor: *orange
       killColor: *comment
       completedColor: *comment
     # Border title styles.
@@ -107,6 +108,6 @@ k9s:
         bgColor: *magenta
     help:
       fgColor: *foreground
-      bgColor: default
+      bgColor: *background
       indicator:
         fgColor: *red
