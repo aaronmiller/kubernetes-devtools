@@ -2,8 +2,8 @@
 
 for file in "${KUBERNETES_DEVTOOLS_DIR}"/scripts/env/*; do
   if [[ $file == *"index.sh" ]]; then
-    continue;
+    continue
   fi
 
-  . $file;
+  . $file
 done
