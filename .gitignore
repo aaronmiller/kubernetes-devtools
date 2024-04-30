@@ -1,1 +1,4 @@
-k9s/config.yml
+k9s/benchmarks/
+k9s/clusters/
+k9s/screen-dumps/
+k9s/aliases.yaml
