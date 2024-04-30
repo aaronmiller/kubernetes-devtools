@@ -5,12 +5,12 @@ k9s:
   readOnly: false
   noExitOnCtrlC: false
   ui:
-    enableMouse: true
+    enableMouse: false
     headless: false
     logoless: true
-    crumbsless: false
-    reactive: false
-    noIcons: false
+    crumbsless: true
+    reactive: true
+    noIcons: true
     defaultsToFullScreen: false
     skin: wilmersdorf-palenight
   skipLatestRevCheck: false
