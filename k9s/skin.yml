@@ -1,9 +1,13 @@
-# Wilmersdorf
+# -----------------------------------------------------------------------------
+# Wilmersdorf + Palenight skin
+# -----------------------------------------------------------------------------
+
+# Styles...
 foreground: &foreground "#eeffff"
 background: &background "#292d3e"
 current_line: &current_line "#242837"
-selection: &selection "#616c96"
-comment: &comment "#6e7899"
+selection: &selection "#becccc"
+comment: &comment "#9299b2"
 cyan: &cyan "#7289bc"
 green: &green "#5b94ab"
 orange: &orange "#a6c1e0"
@@ -12,6 +16,7 @@ magenta: &magenta "#a6c1e0"
 red: &red "#e1c1ee"
 yellow: &yellow "#cfcf9c"
 
+# Skin...
 k9s:
   # General K9s styles
   body:
@@ -106,6 +111,8 @@ k9s:
       indicator:
         fgColor: *foreground
         bgColor: *magenta
+        toggleOnColor: *magenta
+        toggleOffColor: *blue
     help:
       fgColor: *foreground
       bgColor: *background
