@@ -6,7 +6,7 @@
 foreground: &foreground "#eeffff"
 background: &background "#292d3e"
 current_line: &current_line "#242837"
-selection: &selection "#becccc"
+selection: &selection "#eeffff"
 comment: &comment "#9299b2"
 cyan: &cyan "#7289bc"
 green: &green "#5b94ab"
