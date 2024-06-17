@@ -4,15 +4,15 @@
 
 # Styles...
 foreground: &foreground "#eeffff"
-background: &background "#292d3e"
-current_line: &current_line "#242837"
+background: &background default
+current_line: &current_line default
 selection: &selection "#eeffff"
 comment: &comment "#9299b2"
 cyan: &cyan "#7289bc"
 green: &green "#5b94ab"
 orange: &orange "#a6c1e0"
 blue: &blue "#819cd6"
-magenta: &magenta "#a6c1e0"
+magenta: &magenta default
 red: &red "#e1c1ee"
 yellow: &yellow "#cfcf9c"
 
