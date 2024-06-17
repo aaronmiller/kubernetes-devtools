@@ -3,15 +3,15 @@
 # -----------------------------------------------------------------------------
 
 # Styles...
-foreground: &foreground "#eeffff"
+foreground: &foreground "#ccdddd"
 background: &background default
 current_line: &current_line default
-selection: &selection "#eeffff"
-comment: &comment "#9299b2"
-cyan: &cyan "#7289bc"
+selection: &selection "#ccdddd"
+comment: &comment "#6e7899"
+cyan: &cyan "#6e7899"
 green: &green "#5b94ab"
 orange: &orange "#a6c1e0"
-blue: &blue "#819cd6"
+blue: &blue "#616c96"
 magenta: &magenta default
 red: &red "#e1c1ee"
 yellow: &yellow "#cfcf9c"
