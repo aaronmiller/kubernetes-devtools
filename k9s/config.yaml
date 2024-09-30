@@ -1,5 +1,6 @@
 k9s:
   liveViewAutoRefresh: true
+  screenDumpDir: /tmp/dumps
   refreshRate: 2
   maxConnRetry: 5
   readOnly: false
@@ -10,10 +11,11 @@ k9s:
     logoless: true
     crumbsless: true
     reactive: true
-    noIcons: true
     defaultsToFullScreen: false
     skin: moonlight-wilmersdorf
+  noIcons: true
   skipLatestRevCheck: false
+  keepMissingClusters: false
   disablePodCounting: false
   shellPod:
     image: busybox:1.36.1
@@ -21,15 +23,16 @@ k9s:
     limits:
       cpu: 100m
       memory: 100Mi
+    tty: true
   imageScans:
     enable: false
     exclusions:
       namespaces: []
       labels: {}
   logger:
-    tail: 100
-    buffer: 5000
-    sinceSeconds: -1
+    tail: 200
+    buffer: 500
+    sinceSeconds: 300
     textWrap: false
     showTime: false
   thresholds:
