@@ -1,17 +1,17 @@
 # -----------------------------------------------------------------------------
-# Palenight + Wilmersdorf skin
+# Moonlight + Wilmersdorf skin
 # -----------------------------------------------------------------------------
 
 # Styles...
-foreground: &foreground "#ccdddd"
+foreground: &foreground "#c8d3f5"
 background: &background default
 current_line: &current_line default
-selection: &selection "#ccdddd"
+selection: &selection "#616c96"
 comment: &comment "#6e7899"
-cyan: &cyan "#6e7899"
+cyan: &cyan "#7289bc"
 green: &green "#5b94ab"
 orange: &orange "#a6c1e0"
-blue: &blue "#616c96"
+blue: &blue "#819cd6"
 magenta: &magenta default
 red: &red "#e1c1ee"
 yellow: &yellow "#cfcf9c"
