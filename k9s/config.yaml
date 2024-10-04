@@ -13,9 +13,8 @@ k9s:
     reactive: true
     defaultsToFullScreen: false
     skin: moonlight-wilmersdorf
-  noIcons: true
+    noIcons: true
   skipLatestRevCheck: false
-  keepMissingClusters: false
   disablePodCounting: false
   shellPod:
     image: busybox:1.36.1
