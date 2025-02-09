@@ -3,18 +3,18 @@
 # -----------------------------------------------------------------------------
 
 # Styles...
-foreground: &foreground "#c2d3ff"
+foreground: &foreground "#b2d3ff"
 background: &background default
 current_line: &current_line default
-selection: &selection "#5b6ca0"
-comment: &comment "#6878a3"
-cyan: &cyan "#6c89c6"
-green: &green "#5594b5"
-orange: &orange "#a0c1ea"
-blue: &blue "#7b9ce0"
+selection: &selection "#4b6ca0"
+comment: &comment "#5878a3"
+cyan: &cyan "#5c89c6"
+green: &green "#4594b5"
+orange: &orange "#90c1ea"
+blue: &blue "#6b9ce0"
 magenta: &magenta default
-red: &red "#dbc1f8"
-yellow: &yellow "#c9cfa6"
+red: &red "#cbc1f8"
+yellow: &yellow "#b9cfa6"
 
 # Skin...
 k9s:
