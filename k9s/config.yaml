@@ -4,14 +4,14 @@ k9s:
   refreshRate: 2
   maxConnRetry: 5
   readOnly: false
-  noExitOnCtrlC: false
+  noExitOnCtrlC: true
   ui:
     enableMouse: false
     headless: false
     logoless: true
     crumbsless: true
     reactive: true
-    defaultsToFullScreen: false
+    defaultsToFullScreen: true
     skin: moonlight-wilmersdorf
     noIcons: true
   skipLatestRevCheck: false
@@ -29,11 +29,11 @@ k9s:
       namespaces: []
       labels: {}
   logger:
-    tail: 200
-    buffer: 500
+    tail: 50000
+    buffer: 100000
     sinceSeconds: 300
-    textWrap: false
-    showTime: false
+    textWrap: true
+    showTime: true
   thresholds:
     cpu:
       critical: 90
