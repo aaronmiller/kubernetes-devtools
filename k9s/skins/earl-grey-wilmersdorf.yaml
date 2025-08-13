@@ -8,13 +8,13 @@ background: &background default
 current_line: &current_line default
 selection: &selection "#CCB9C7"
 comment: &comment "#9E9A95"
-red: &red "#8F5652"
-green: &green "#747B4D"
-yellow: &yellow "#886A44"
-blue: &blue "#556995"
+red: &red "#e1c1ee"
+green: &green "#5b94ab"
+yellow: &yellow "#cfcf9c"
+blue: &blue "#819cd6"
 magenta: &magenta default
-cyan: &cyan "#477A7B"
-orange: &orange "#886A44"
+cyan: &cyan "#7ebebd"
+orange: &orange "#cfcf9c"
 
 # Skin...
 k9s:
