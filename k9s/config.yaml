@@ -12,7 +12,7 @@ k9s:
     crumbsless: true
     reactive: true
     defaultsToFullScreen: true
-    skin: moonlight-wilmersdorf
+    skin: earl-grey
     noIcons: true
   skipLatestRevCheck: false
   disablePodCounting: false
